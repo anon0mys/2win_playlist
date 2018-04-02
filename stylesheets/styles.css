@@ -70,9 +70,14 @@ nav a {
 }
 
 .card-bottom {
-  margin: 5%;
+  margin-left: 5%;
 }
 
 .card-top img {
   max-width: 100%;
+}
+
+.attachment-count {
+  color: blue;
+  font-size: 2em;
 }
