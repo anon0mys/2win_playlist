@@ -8,14 +8,19 @@ body {
 
 .login {
   display: flex;
-  flex-direction: row;
-  text-align: right;
+  flex-direction: flex;
+  justify-content: flex-end;
+  align-items: center;
+  margin-right: 1%;
   color: white;
+}
+
+.login i {
+  margin-right: 1%;
 }
 
 nav {
   display: flex;
-  flex-direction: row;
 }
 
 nav .links {
@@ -28,7 +33,7 @@ nav .logo {
   flex-grow: 1;
   display: flex;
   flex-direction: row;
-  align-content: flex-end;
+  justify-content: flex-end;
   color: white;
   padding: 5px;
 }
@@ -64,6 +69,10 @@ nav a {
   background-color: white;
 }
 
-.card * {
-  margin-left: 3%;
+.card-bottom {
+  margin: 5%;
+}
+
+.card-top img {
+  max-width: 100%;
 }
